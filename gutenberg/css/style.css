@@ -1,0 +1,78 @@
+body {
+	margin: 8%;
+	background-color: #FAF9E7;
+	background-image: linear-gradient(to right, rgba(165, 144, 120, 0.8) , rgba(145, 144, 130, 0.4), rgba(145, 144, 130, 0.2), rgba(145, 144, 130, 0.2), rgba(145, 144, 130, 0.4), rgba(145, 144, 130, 0.8));
+	color: #38200F;
+	font-family: Bookman Old Style;
+	font-weight: 450;
+}
+
+h1, h2, h3 {
+	color: #4A2D18;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Papyrus, fantasy;
+}
+
+h2::before, h2::after { 
+	content: "*";
+	position: relative;
+	top: 4px;
+}
+
+h5 a img {
+	visibility: hidden;
+}
+
+a, a:hover, a:visited, a:active {
+	color: #4A2D18;
+	font-size: 90%;
+}
+
+p {
+	text-align: justify;
+}
+
+p.pfirst::first-letter { 
+	font-size: 80%;
+	color: #4A2D18;
+	font-family: Papyrus, fantasy;
+}
+
+.fig, .figcenter {
+	margin: 32px auto;
+}
+
+.fig img, .figcenter img {
+	padding: 2px;
+	border-radius: 4px;
+	box-shadow: 0 0 32px rgba(165, 144, 120, 0.8);
+	filter: opacity(80%);
+}
+
+.pagenum {
+	visibility: hidden;
+}
+
+/*Credit for hr styling: https://css-tricks.com/examples/hrs/ */
+hr {
+	padding: 0;
+	border: none;
+	border-top: medium double #4A2D18;
+	color: #4A2D18;
+	text-align: center;
+}
+hr:after {
+	content: "§";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: #E5E4D2;
+}
+
+pre {
+	font-family: Copperplate,Copperplate Gothic Light,fantasy;
+	font-style: italic;
+}
