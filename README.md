@@ -12,6 +12,13 @@ Read this comic http://theoatmeal.com/comics/design_hell
 
 git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 
+Project Gutenberg changes
+====================
+ - old-looking page backround using backround gradients
+ - old-looking headings and first paragraph letters using color and font
+ - images blended into through box shadow and decreased opacity
+ - styled links, horizontal lines, and other elements to nicely fit into the overall style
+
 License/Copyright
 =================
 
