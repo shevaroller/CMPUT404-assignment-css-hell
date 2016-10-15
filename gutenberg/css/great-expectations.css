@@ -1,0 +1,48 @@
+body {
+	margin: 8%;
+	background-color: #D2C196;
+	background-image: linear-gradient(to right, rgba(40, 20, 20, 0.5) , rgba(40, 20, 20, 0.25), rgba(40, 20, 20, 0.05), rgba(40, 20, 20, 0.05), rgba(40, 20, 20, 0.25), rgba(40, 20, 20, 0.5));
+	color: #38200F;
+	font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+	font-weight: 450;
+}
+
+h1, h2, h3 {
+	color: #5C3317;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2::before, h2::after { 
+	content: "~";
+	position: relative;
+	top: 8px;
+}
+
+a, a:hover, a:visited, a:active {
+	color: #5C3317;
+	font-size: 90%;
+}
+
+p {
+	text-align: justify;
+}
+
+p.pfirst::first-letter { 
+	font-size: 80%;
+	color: #5C3317;
+}
+
+.fig {
+	margin: 0 auto;
+}
+
+h5 a img {
+	visibility: hidden;
+}
+
+hr {
+	border-style: dashed;
+	border-color: #5C3317;
+	border-width: 2px 0 0 0;
+}
