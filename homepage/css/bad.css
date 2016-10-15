@@ -1,0 +1,102 @@
+/* General styling */
+body {
+	background: red;
+	font-family: comic;
+	color: #333;
+}
+
+h1, h2 {
+	font-size: 1.4em;
+	font-weight:normal;
+}
+
+h3 {
+	font-weight:normal;
+	color: grey;
+}
+
+h4 {
+	font-weight:bold;
+	margin-top: -0.75em;
+	color: brown;
+	font-size: 3em;
+
+}
+
+li.job, .skills ul li, .education ul li {
+	list-style-type: none;
+}
+
+hr {
+	color: violet;
+	background-color: #C5CAE9;
+	border: 0;
+	height: 1px;
+	margin-top: 16px;
+}
+
+.block hr {
+	height: 10px;
+}
+
+.block {
+	background: #005;
+	border: 1px solid #C5CAE9;
+	padding: 16px;
+	margin: 16px;
+	border-radius: 4px;
+}
+
+.sidebar {
+	-ms-transform: rotate(1deg) scale(0.8);
+	-webkit-transform: rotate(1deg) scale(0.8);
+	transform: rotate(1deg) scale(0.8);
+	position: fixed;
+	width: 26%;
+	text-align: center;
+	top: -20px;
+	background: #543210;
+}
+
+.sidebar:hover {
+	-ms-transform: rotate(55deg) scale(1.1);
+	-webkit-transform: rotate(55deg) scale(1.1);
+	transform: rotate(55deg) scale(1.1);
+	background-color: blue;
+	left:-200px;
+}
+
+.sidebar img {
+	width: calc(64px + 50%);
+	max-width: 320px;
+	border: 8px dashed #123456;
+}
+
+.main {
+	float: right;
+	min-width: 500px;
+	font-color: #ff943e;
+	text-align: right!important;
+}
+
+.company {
+	font-style: italic;
+}
+
+.sidebar .contact {
+	text-align: left;
+	font-size: 0.88em;
+}
+
+.skills span, .education span {
+	margin-left: 2em;
+}
+
+.skills h4 {
+	margin-top: 2px;
+}
+
+.social-icon {
+	display: inline-block;
+	margin: -1px;
+}
