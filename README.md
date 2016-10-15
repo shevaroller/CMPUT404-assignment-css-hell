@@ -19,6 +19,8 @@ Project Gutenberg changes
  - images blended into through box shadow and decreased opacity
  - styled links, horizontal lines, and other elements to nicely fit into the overall style
 
+Firefox previews are available in the `screenshots` folder
+
 License/Copyright
 =================
 
