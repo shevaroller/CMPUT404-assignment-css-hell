@@ -1,0 +1,97 @@
+/* General styling */
+body {
+	background: #E8EAF6;
+	font-family: HelveticaNeue, Arial, Sans-serif;
+	color: #333;
+}
+
+h1, h2 {
+	font-size: 1.4em;
+	font-weight:normal;
+}
+
+h3 {
+	font-weight:normal;
+	color: #444;
+}
+
+h4 {
+	font-weight:normal;
+	margin-top: -0.75em;
+	color: #555;
+}
+
+li.job, .skills ul li, .education ul li {
+	list-style-type: none;
+}
+
+hr {
+	color: #C5CAE9;
+	background-color: #C5CAE9;
+	border: 0;
+	height: 1px;
+	margin-top: 16px;
+}
+
+.block {
+	background: #FFF;
+	border: 1px solid #C5CAE9;
+	padding: 16px;
+	margin: 16px;
+	border-radius: 4px;
+}
+
+.sidebar {
+	position: fixed;
+	width: 26%;
+	text-align: center;
+}
+
+.sidebar img {
+	width: calc(64px + 50%);
+	max-width: 320px;
+	border-radius: 8px;
+}
+
+.main {
+	float: right;
+	width: calc(74% - 120px);
+}
+
+.company {
+	font-style: italic;
+}
+
+.sidebar .contact {
+	text-align: left;
+	font-size: 0.88em;
+}
+
+.skills span, .education span {
+	margin-left: 2em;
+}
+
+.skills h4 {
+	margin-top: 16px;
+}
+
+.social-icon {
+	display: inline-block;
+	margin: 8px;
+}
+
+.social-icon a:link {
+	color: #3F51B5;
+}
+
+.social-icon a:visited {
+	color: #3F51B5;
+}
+
+.social-icon a:hover {
+	color: #1A237E;
+}
+
+.social-icon a:active {
+	color: #7986CB;
+}
